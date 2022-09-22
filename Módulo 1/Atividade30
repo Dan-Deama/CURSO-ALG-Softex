@@ -1,0 +1,59 @@
+Algoritmo "Atividade30"
+// 
+//  
+// Autor(a)    : Danilo Augusto da Silva Deama
+
+Var
+   insertion: vetor[1..30] de inteiro;
+   i, j, troca: inteiro;
+
+Inicio
+
+   insertion[1] <- 40;
+   insertion[2] <- 37;
+   insertion[3] <- 1;
+   insertion[4] <- 23;
+   insertion[5] <- 49;
+   insertion[6] <- 20;
+   insertion[7] <- 24;
+   insertion[8] <- 33;
+   insertion[9] <- 8;
+   insertion[10] <- 3;
+   insertion[11] <- 31;
+   insertion[12] <- 35;
+   insertion[13] <- 25;
+   insertion[14] <- 15;
+   insertion[15] <- 29;
+   insertion[16] <- 32;
+   insertion[17] <- 6;
+   insertion[18] <- 18;
+   insertion[19] <- 36;
+   insertion[20] <- 55;
+   insertion[21] <- 43;
+   insertion[22] <- 21;
+   insertion[23] <- 2;
+   insertion[24] <- 48;
+   insertion[25] <- 14;
+   insertion[26] <- 28;
+   insertion[27] <- 46;
+   insertion[28] <- 4;
+   insertion[29] <- 10;
+   insertion[30] <- 47;
+
+   para i de 2 ate 30 faca
+    troca <- insertion[i]
+    j <- i-1
+     		enquanto troca < insertion [j] faca
+       		 insertion[j+1] <- insertion[j]
+       		  j <- j-1
+      				   se j=0 entao
+          				  interrompa
+    				    fimse
+   		   fimenquanto
+   insertion [j+1] <- troca
+   fimpara
+
+   para i de 1 ate 30 faca
+   escreval (insertion[i])
+   fimpara
+Fimalgoritmo
