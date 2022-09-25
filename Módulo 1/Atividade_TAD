@@ -1,0 +1,43 @@
+"""Crie um tipo abstrato de dado (TAD) para manipular números complexos na linguagem Python.
+O método deve:
+
+- calcular três números complexos;
+- realizar todas as operações básicas;
+- e imprimir as propriedades real e img do números. """
+
+a = complex(6, 13)
+print(f'a é igual à: {a}')
+print(f'A classe de a é: {type(a)}')
+b = complex(7, 10)
+print(f'b é igual à: {b}')
+print(f'A classe de B é: {type(b)}')
+c = complex(9, 15)
+print(f'c é igual à: {c}')
+print(f'A classe de c é: {type(c)}')
+
+print()
+'operações básicas'
+'adição'
+print('Operação de adição: a+b+c')
+print(a + b + c)
+
+'subtração'
+print('Operação de subtração: a-b-c')
+print(a - b - c)
+
+'multiplicação'
+print('Operação de multiplicação: a*b*c')
+print(a * b * c)
+
+'divisão'
+print('Operação de divisão: a+b/c')
+print(a+b/c)
+
+print()
+'propriedades'
+print(f'O número real de a é: {a.real}')
+print(f'O número imaginário de a é: {a.imag}')
+print(f'O número real de b é: {b.real}')
+print(f'O número imaginário de b é: {b.imag}')
+print(f'O número real de c é: {c.real}')
+print(f'O número imaginário de c é: {c.imag}')
