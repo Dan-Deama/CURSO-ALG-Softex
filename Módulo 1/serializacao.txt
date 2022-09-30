@@ -1,0 +1,15 @@
+import java.io.Serializable;
+
+public class Serializacao{
+
+    FileOutputStream = new FileOutputStream("C:\Users\d4n1l\OneDrive\Documentos\ESTUDOS\Softex\serializacao.xls");
+    ObjectOutputStream = new ObjectOutputStream("serializacao.xls");
+    Serializacao.writeObject("serializacao.xls");
+    Serializacao.close();
+
+public class ReadObject{
+
+     FileInputStream "serializacao.xls"  = new FileInputStream("C:\Users\d4n1l\OneDrive\Documentos\ESTUDOS\Softex\serializacao.xls");
+     ObjectInputStream "serializacao.xls" = new ObjectInputStream("serializacao.xls");
+     Serializacao = ("serializacao.xls") "serializacao.xls".readObject();
+     Serializacao.close();
