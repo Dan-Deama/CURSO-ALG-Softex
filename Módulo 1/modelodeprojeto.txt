@@ -1,0 +1,17 @@
+PROJETO 14
+
+Escolha e descreva um padrão de projetos.
+
+
+DESENVOLVIMENTO
+Template Method (também conhecido como Método Padrão) - É um padrão de projeto comportamental que define o esqueleto do algorítmo na superclasse,
+mas deixa que as subclasses sobrescrevam algumas etapas do algorítmo sem modificar sua estrutura.
+
+Prós: 
+Ele é indicado quando você possui classes que tem o código parecido, permitindo que você elimine linhas duplicadas de código que repetem para as classes diferentes.
+Você pode deixar clientes sobrescrever apenas certas partes de um algoritmo grande, tornando-os menos afetados por mudanças que acontece por outras partes do algoritmo, 
+já que a superclasse se manterá intacta.
+
+Contras: 
+Alguns clientes podem se sentir limitados pelo esqueleto do algoritmo.
+Quanto mais etapas o processo tiver, mais díficil será implementar o Template Method e manter o esqueleto do algorítmo.
