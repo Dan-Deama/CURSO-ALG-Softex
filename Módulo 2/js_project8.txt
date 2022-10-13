@@ -1,0 +1,15 @@
+var total
+var a = 4
+var b = 6
+
+function scan(){
+return 'Parabéns!'
+}
+function soma(a,b){
+return a+b
+}
+
+resultado = scan()
+console.log(scan)
+total = soma(a,b)
+console.log(total)
